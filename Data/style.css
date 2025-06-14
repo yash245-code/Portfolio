@@ -1,0 +1,277 @@
+:root {
+  --upperTabclr: #262626;
+  --homeBacclr: #0b0b0b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'heading';
+  src: url(Font/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'content';
+  src: url(Font/AlumniSansSC-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'body';
+  src: url(Font/Outfit-VariableFont_wght.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body > section > div,
+section {
+  width: 100%;
+  height: 100vh;
+  scroll-margin-top: 12vh;
+}
+
+.home {
+  background-color: var(--homeBacclr);
+}
+
+.upperTab {
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  background-color: var(--upperTabclr);
+  position: absolute;
+  left: 10%;
+  border-radius: 0 0 10px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  z-index: 10;
+}
+
+.pageNames {
+  font-family: 'content';
+  font-size: 20px;
+  font-weight: 600;
+  list-style-type: none;
+  display: flex;
+  gap: 60px;
+}
+
+.pageNames li a {
+  color: #dddddd;
+  text-decoration: none;
+  position: relative;
+}
+
+.pageNames li {
+  position: relative;
+  cursor: pointer;
+}
+
+.pageNames li::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  left: 0;
+  background-color: #dddddd;
+  transition: all 0.3s ease-in-out;
+  transform: scaleX(0);
+}
+
+.pageNames li:hover::after {
+  transform: scaleX(1);
+}
+
+.linksIcon {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+}
+
+.linksIcon li {
+  height: 40px;
+  width: 40px;
+}
+
+.linksIcon img {
+  width: 35px;
+  height: 35px;
+  filter: brightness(0) saturate(100%) invert(75%) sepia(88%) saturate(0%) hue-rotate(139deg) brightness(90%) contrast(126%);
+}
+
+.homeBody {
+  width: 80%;
+  height: 72vh;
+  position: relative;
+  top: 20vh;
+  left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  row-gap: 0;
+  padding-top: 5vh;
+}
+
+.homeBodyText {
+  width: 56%;
+  height: 50vh;
+  flex: 0 0 calc(60% - 10px);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 5vh;
+  padding-left: 4%;
+}
+
+.homeBodyText h5 {
+  font-family: 'heading';
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.homeBodyText p {
+  width: 85%;
+  font-family: 'body';
+  font-size: 15px;
+  color: #c1c1c1;
+  word-spacing: 3px;
+}
+
+.homeBodyText button {
+  background-color: #408c04;
+  font-family: 'body';
+  font-size: 14px;
+  width: 200px;
+  height: 50px;
+  border: 2px solid #57ac16;
+  border-radius: 4px;
+  word-spacing: 4px;
+  transition: 0.3s ease;
+  box-shadow:rgb(87, 172, 22) 0px 4px 30px;
+}
+
+.homeBodyText button:hover {
+  background-color: #57ac16;
+  cursor: pointer;
+}
+
+.homeImage {
+  width: 30%;
+  height: 50vh;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.homeImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.homeSkillSet {
+  width: 90%;
+  height: 15vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 30px;
+  font-family: 'body';
+  justify-content: end;
+}
+
+.homeSSList {
+    list-style-type: none;
+    display: flex;
+    gap: 140px;
+}
+
+.homeSSList li {
+    display: flex;
+    width: 140px;
+    height: 55px;
+    border: 2px solid #888;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.homeSSList li img {
+    width: 30px;
+}
+
+.projects {
+  background-color: #424242;
+}
+
+.certifications {
+  background-color: #323232;
+}
+
+.getInTouch {
+  background-color: #121212;
+}
+
+/*Second Page Styling*/
+#skills{
+  height: 200vh;
+}
+.skills {
+  width: 100%;
+  height: 200vh;
+  background-color: #222222;
+}
+
+
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .upperTab {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  .pageNames {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .linksIcon{
+    display: none;
+  }
+
+  .homeBody {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    top: 12vh;
+    padding-top: 2vh;
+  }
+
+  .homeBodyText,
+  .homeImage,
+  .homeSkillSet {
+    width: 90%;
+  }
+
+  .homeBodyText {
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+  }
+}
