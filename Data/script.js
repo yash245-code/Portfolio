@@ -1,4 +1,6 @@
 var namelist = document.querySelectorAll('.pageNames li');
+var page1btn = document.querySelector('.homeBodyText button')
+
 
 namelist.forEach(item => {
       // Changes the color of text to cyan on hover.
@@ -11,3 +13,10 @@ namelist.forEach(item => {
   }
 });
 
+page1btn.addEventListener('mouseover', () => {
+  page1btn.style.transition = "0.3s all";
+  page1btn.style.transform = 'scale(1.05)';
+});
+page1btn.addEventListener('mouseleave', () => {
+  page1btn.style.transform = 'none';
+});
