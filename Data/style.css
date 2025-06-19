@@ -257,34 +257,76 @@ section {
 .htmlSkill{
   background-color: #ffffff;
   width: 100%; height: 50vh;
+  position: relative; display: flex;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+.htmlSkillText{
+  width: 50%; height: 100%;
+  display: flex; flex-direction: column;
+  padding: 5% 0 0 5%; gap: 5%;
 }
 .htmlSkillHead{
   width: fit-content; height: fit-content;
   font-family: 'heading'; color: #000000;
-  position: relative; top: 14%; left: 10%;
 }
 .htmlSkillBody{
-  width: 40%; height: fit-content;
+  width: 80%; height: fit-content;
   font-family: 'body'; color: #323232;
-  position: relative; top: 20%; left: 10%;
 }
 .htmlSkillImage{
-  width: 300px; left: 60%;
-  position: relative; top: -40%; 
-  border: none; border-radius: 10px;
+  width: 430px; height: 280px;
+  margin: auto; border: none; border-radius: 10px;
 }
 
 
 /*CSS skills level of skills page or second page*/
 .cssSkill{
   width: 100%; height: 50vh;
-  background-color: #bbbbbb;
+  background-color: #ffffff;
+  display: flex; justify-content: right;
 }
+.cssSkillText{
+  width: 50%; height: 100%;
+  display: flex; flex-direction: column;
+  padding: 5% 0 0 5%; gap: 5%;
+}
+.cssSkillHead{
+  width: fit-content; height: fit-content;
+  font-family: 'heading'; color: #000000;
+}
+.cssSkillBody{
+  width: 80%; height: fit-content;
+  font-family: 'body'; color: #323232;
+}
+.cssSkill > .cssSkillImg{
+  width: 430px; height: 280px;
+  margin: auto; border: none; border-radius: 10px;
+}
+
 
 /*JS skills level of skills page or second page*/
 .jsSkill{
   width: 100%; height: 50vh;
-  background-color: #dddddd;
+  background-color: #ffffff;
+  display: flex; border-radius: 0 0 10px 10px;
+}
+.jsSkillText{
+  width: 50%; height: 100%;
+  display: flex; flex-direction: column;
+  padding: 5% 0 0 5%; gap: 5%;
+}
+.jsSkillHead{
+  width: fit-content; height: fit-content;
+  font-family: 'heading'; color: #000000;
+}
+.jsSkillBody{
+  width: 80%; height: fit-content;
+  font-family: 'body'; color: #323232;
+}
+.jsSkill > .jsSkillImg{
+  width: 430px; height: 280px;
+  margin: auto; border: none; border-radius: 10px;
 }
 
 
