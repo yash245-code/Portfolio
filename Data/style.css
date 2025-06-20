@@ -1,6 +1,7 @@
 :root {
   --upperTabclr: #262626;
   --homeBacclr: #0b0b0b;
+  --bodyTextColor: #323232;
 }
 
 * {
@@ -217,10 +218,6 @@ section {
     width: 30px;
 }
 
-.projects {
-  background-color: #424242;
-}
-
 .certifications {
   background-color: #323232;
 }
@@ -235,7 +232,7 @@ section {
 }
 .skills {
   width: 100%; height: 200vh;
-  background-color: #222222;
+  background-color: #121212;
   padding: 10vh 10vw 10vh 10vw;
 }
 .intro{
@@ -272,7 +269,7 @@ section {
 }
 .htmlSkillBody{
   width: 80%; height: fit-content;
-  font-family: 'body'; color: #323232;
+  font-family: 'body'; color: var(--bodyTextColor);
 }
 .htmlSkillImage{
   width: 430px; height: 280px;
@@ -297,7 +294,7 @@ section {
 }
 .cssSkillBody{
   width: 80%; height: fit-content;
-  font-family: 'body'; color: #323232;
+  font-family: 'body'; color: var(--bodyTextColor);
 }
 .cssSkill > .cssSkillImg{
   width: 430px; height: 280px;
@@ -322,12 +319,50 @@ section {
 }
 .jsSkillBody{
   width: 80%; height: fit-content;
-  font-family: 'body'; color: #323232;
+  font-family: 'body'; color: var(--bodyTextColor);
 }
 .jsSkill > .jsSkillImg{
   width: 430px; height: 280px;
   margin: auto; border: none; border-radius: 10px;
 }
+
+
+/*Styling for the 3 page of my portfolio the projects section*/
+#projects{
+  height: 150vh;
+}
+.projects{
+  width: 100%; height: 150vh;
+  background-color: var(--homeBacclr);
+  padding: 5vh 5vw 5vh 5vw; 
+}
+.projectsTextCont{
+  width: 100%; height: 20%;
+  display: flex; flex-direction: column;
+}
+.projectsHead{
+  width: 100%; height: fit-content; font-size: 30px;
+  font-family: 'heading'; text-align: center;
+}
+.projectsBody{
+  width: 60%; height: fit-content; font-size: 15px;
+  font-family: 'body'; text-align: center; margin: auto;
+}
+.projectsContainer{
+  width: 100%; height: 80%; gap: 5% 7%;
+  display: flex; flex-wrap: wrap;
+  justify-content: center; align-items: center;
+}
+.projectsContainer div{
+  width: 40%; height: 40%;
+  background-color: #fff;
+  border: 10px double #9a9a1d;
+  border-radius: 10px; border-top: none; border-right: none;
+
+}
+
+
+
 
 
 /* Responsive Styling */
