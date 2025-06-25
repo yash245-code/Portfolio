@@ -218,9 +218,7 @@ section {
     width: 30px;
 }
 
-.certifications {
-  background-color: #323232;
-}
+
 
 .getInTouch {
   background-color: #121212;
@@ -356,12 +354,48 @@ section {
 .projectsContainer div{
   width: 40%; height: 40%;
   background-color: #fff;
-  border: 10px double #9a9a1d;
-  border-radius: 10px; border-top: none; border-right: none;
-
+  border-radius: 10px; 
 }
 
+/* Styling for the 4th page that shows diffrent certifications*/
+#certi{
+  width: 100%; height: 130vh;
+}
 
+.certifications{
+  width: 100%; height: 130vh;
+  background-color: #323232;
+  padding: 5vh 5vw 5vh 5vw;
+  display: flex; flex-direction: column;
+}
+.certificationsText{
+  width: 100%; height: 22%;
+  display: flex; flex-direction: column;
+  align-items: center; text-align: center;
+  gap: 10%;
+}
+.certiHead{
+  width: fit-content; height: fit-content;
+  font-family: 'heading'; font-size: 32px;
+}
+.certiBody{
+  width: 65%; height: fit-content;
+  font-family: 'body'; font-size: 16px;
+}
+.certiContainer{
+  width: 100%; height: 78%;
+  display: flex; flex-direction: column;
+  align-items: center; gap: 3.5%;
+}
+.certiImg{
+  width: 100%; height: 85%;
+}
+.moreCertiBtn{
+  width: 15%; height: 8%;
+  color: #000000;
+  border-radius: 10px;
+  border: none
+}
 
 
 
