@@ -11,19 +11,23 @@
   box-sizing: border-box;
 }
 
+/* ================================================================== */
+/* FIXED FONT PATHS BELOW */
+/* Note the single '/' at the beginning of each url(). */
+/* ================================================================== */
 @font-face {
   font-family: 'heading';
-  src: url(Font/Montserrat-VariableFont_wght.ttf);
+  src: url(/Font/Montserrat-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: 'content';
-  src: url(Font/AlumniSansSC-VariableFont_wght.ttf);
+  src: url(/Font/AlumniSansSC-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: 'body';
-  src: url(Font/Outfit-VariableFont_wght.ttf);
+  src: url(/Font/Outfit-VariableFont_wght.ttf);
 }
 
 html {
@@ -438,3 +442,4 @@ section {
     padding-left: 0;
   }
 }
+

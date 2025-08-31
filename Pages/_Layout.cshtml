@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Correct path to your CSS file -->
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+
+    <!-- ================================================================= -->
+    <!-- YOUR NAVIGATION BAR GOES HERE IN THE LAYOUT FILE -->
+    <!-- ================================================================= -->
+    <section id="home">
+        <div class="home">
+            <div class="upperTab">
+                <ul class="pageNames">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certi">Certifications</a></li>
+                    <li><a href="#getintch">Get In Touch</a></li>
+                </ul>
+                <ul class="linksIcon">
+                     <!-- Correct paths to your icon images -->
+                    <li><a target="_blank" href="https://www.linkedin.com/in/yash-rawat-6496639611y/"><img src="~/images/upperTabImages/linkedinIcon.svg" alt="LinkedIn"></a></li>
+                    <li><a target="_blank" href="https://github.com/yash245-code"><img src="~/images/upperTabImages/githubIcon.svg" alt="GitHub"></a></li>
+                    <li><a target="_blank" href=""><img src="~/images/upperTabImages/gmailIcon.svg" alt="G-mail"></a></li>
+                </ul>
+            </div>
+
+            <div class="homeBody">
+                <div class="homeBodyText">
+                    <h5>Yash Rawat</h5>
+                    <p>Creative and curious BCA student passionate about web development and game development. I enjoy building responsive, user-friendly websites while constantly learning new technologies to grow as a developer.</p>
+                    <button>Let's Get Started &gt;</button>
+                </div>
+                <div class="homeImage"></div>
+            <div class="homeSkillSet">
+                <p>Proficient In :</p>
+                <ul class="homeSSList">
+                <!-- Correct paths to your skill images -->
+                    <li><img src="~/images/homeSkills/html.png" alt="">HTML</li>
+                    <li><img src="~/images/homeSkills/css.png" alt="">CSS</li>
+                    <li><img src="~/images/homeSkills/js.png" alt="">Java Script</li>
+                    <li><img src="~/images/homeSkills/csharp.png" alt="">C-Sharp</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- THIS IS WHERE THE CONTENT FROM INDEX.CSHTML WILL BE RENDERED -->
+    <!-- ================================================================= -->
+    <main role="main">
+        @RenderBody()
+    </main>
+
+    <!-- Correct path to your JavaScript file, placed at the end of the body -->
+    <script src="~/js/script.js"></script>
+</body>
+</html>
+

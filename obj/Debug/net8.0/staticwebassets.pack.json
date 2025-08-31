@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\Font\\AlumniSansSC-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\Font\\AlumniSansSC-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\Font\\Montserrat-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\Font\\Montserrat-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\Font\\Outfit-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\Font\\Outfit-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\Page 2\\css.jpg",
+      "PackagePath": "staticwebassets\\images\\Page 2\\css.jpg"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\Page 2\\htmlinfo.jpg",
+      "PackagePath": "staticwebassets\\images\\Page 2\\htmlinfo.jpg"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\Page 2\\jsinfo.jpg",
+      "PackagePath": "staticwebassets\\images\\Page 2\\jsinfo.jpg"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\homeSkills\\csharp.png",
+      "PackagePath": "staticwebassets\\images\\homeSkills\\csharp.png"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\homeSkills\\css.png",
+      "PackagePath": "staticwebassets\\images\\homeSkills\\css.png"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\homeSkills\\html.png",
+      "PackagePath": "staticwebassets\\images\\homeSkills\\html.png"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\homeSkills\\js.png",
+      "PackagePath": "staticwebassets\\images\\homeSkills\\js.png"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\upperTabImages\\githubIcon.svg",
+      "PackagePath": "staticwebassets\\images\\upperTabImages\\githubIcon.svg"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\upperTabImages\\gmailIcon.svg",
+      "PackagePath": "staticwebassets\\images\\upperTabImages\\gmailIcon.svg"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\images\\upperTabImages\\linkedinIcon.svg",
+      "PackagePath": "staticwebassets\\images\\upperTabImages\\linkedinIcon.svg"
+    },
+    {
+      "Id": "E:\\Web Dev Playground\\Projects\\Portfolio\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PortfolioApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PortfolioApp.props",
+      "PackagePath": "build\\PortfolioApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PortfolioApp.props",
+      "PackagePath": "buildMultiTargeting\\PortfolioApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PortfolioApp.props",
+      "PackagePath": "buildTransitive\\PortfolioApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
